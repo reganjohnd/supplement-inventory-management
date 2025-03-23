@@ -1,0 +1,23 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "redleader.22seven.com",
+            "port": 5439,
+            "driver": "Redshift Driver (Dedicated ver)",
+            "name": "227-Redshift",
+            "database": "dev",
+            "username": "regan",
+            "password": "FingalsRedshiftCave@2022!"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "supp_inv_db",
+            "database": "supp_inv_db",
+            "username": "regan_supp_inv_db"
+        }
+    ]
+}

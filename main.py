@@ -12,4 +12,5 @@ def main():
     generate_purchase_alerts(inventory)
     # print(alerts)
 
-main()
+if __name__ == "__main__":
+    main()

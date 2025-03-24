@@ -17,3 +17,9 @@ While I have more experience working architecting OLAP (Online Analytical Proces
 - Automated alerts for low stock or missed dosages
 - Scalable architecture using dimensional modeling
 - Highly normalised database design to ensure data integrity and reduce redundancy
+- User authentication with password logic
+- GUI to view inventory and make adjustments to inventory levels
+
+## Additional Notes & Resources
+
+- View the workflow diagrams [here](https://www.figma.com/board/tzQdoLUU9SJ7YzN2lJPIrA/Supplement-Inventory-Management-Workflows?node-id=0-1&t=AnHzvuGC0S72FYV3-1)

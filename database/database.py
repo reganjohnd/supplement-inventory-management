@@ -1,11 +1,15 @@
 import psycopg2
 import pandas as pd
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 def get_connection():
     return psycopg2.connect(
         dbname="supp_inv_db",
-        user="regan_supp_inv_db",
-        password="regan_supp_inv_db",
+        user=os.getenv("SUPP_INV_DB_USER"),
+        password=os.getenv("SUPP_INVDB_PASSWORD"),
         host="localhost",
         port="5432"
     )

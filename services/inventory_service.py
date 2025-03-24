@@ -41,7 +41,7 @@ def update_inventory(current_date: pd.Timestamp):
     # with conn.cursor() as cursor:
     #     execute_values(cursor, insert_query, params)
     # conn.commit()
-    print(latest_inventory)
+
     return latest_inventory
 
 def get_dosage_data():
